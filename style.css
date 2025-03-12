@@ -1,0 +1,67 @@
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+.block-title {
+    display: flex;
+    justify-content: center
+}
+
+.title {
+    font-size: 34px;
+    padding-bottom: 30px;
+}
+
+.title__image {
+    margin-left: 10px;
+    width: 60px;
+    height: 60px;
+}
+
+.list-directors {
+    display: flex;
+    flex-direction: column;
+}
+
+.info-by-director {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+
+.name-director {
+    font-size: 28px;
+    margin-bottom: 6px;
+}
+
+.films {
+    color: #2e944a;
+}
+
+.line {
+    width: 95%;
+    height: 50px;
+    margin: -20px auto 10px;
+    border: none;
+    border-bottom: 1px solid #2e944a;
+    box-shadow: 0 10px 20px -20px #614634;
+    /* background: linear-gradient(45deg, #2e944a, #614634); */
+}
+
+.best-films {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.best-films__title {
+    font-size: 28px;
+}
+.best-films__content {
+    width: 50%;
+    font-size: 20px;
+    padding: 15px 30px;
+}
